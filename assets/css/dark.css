@@ -1,0 +1,155 @@
+html, body { height: 100%; }
+
+body { display: flex; flex-direction: column; font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; }
+
+footer { flex-shrink: 0; padding-top: 20px; }
+
+body { color: #ccc; background-color: #333; }
+
+h1, h2, h3, h4, h5, h6 { color: #ddd; }
+
+h2 { border-bottom: 1px solid #555; }
+
+blockquote { color: #999; margin-bottom: 20px; padding: 0 0 0 20px; border-left: 3px solid #555; }
+
+code, tt { color: #ddd; background-color: #3f3f3f; padding: 3px; border-radius: 0.25rem; white-space: nowrap; }
+
+li > p { margin-bottom: 0; }
+
+a, .a { text-decoration: none; text-decoration-thickness: 1px; color: #58a6ff; cursor: pointer; }
+
+a:hover, .a:hover { text-decoration: underline; }
+
+a.clean { text-decoration: none; }
+
+footer a { color: inherit; font-weight: bold; text-decoration: underline; }
+
+footer a:hover { color: inherit; opacity: 50%; }
+
+small { font-size: 75%; color: #999; }
+
+img { max-width: 100%; height: auto; }
+
+dt, dd { display: inline-block; }
+
+dl, dd:not(:last-of-type) { margin-bottom: 0; }
+
+.content { flex: 1 0 auto; }
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { padding-left: 0.75rem; padding-right: 0.75rem; }
+
+.btn, .btn a { text-decoration: none; }
+
+.bg-primary { background-color: #80158A !important; }
+
+.btn-primary, .btn-primary:focus { color: rgba(255, 255, 255, 0.7); background-color: #80158A !important; border-color: #80158A !important; }
+
+.btn-primary:hover, .btn-primary:active { color: rgba(255, 255, 255, 0.7) !important; opacity: 0.8; }
+
+.btn-outline-primary { color: #80158A; border-color: #80158A; }
+
+.btn-outline-primary:hover, .btn-outline-primary:active { background-color: #80158A !important; border-color: #80158A !important; }
+
+.text-primary { background-color: #80158A !important; }
+
+.btn-outline-secondary { color: #ccc; }
+
+.btn-dark:hover, .btn-dark:active { opacity: 0.8; }
+
+.btn:focus { box-shadow: none; }
+
+.alert-secondary { color: #ddd; background-color: #3f3f3f; border-color: #3f3f3f; }
+
+.text-dark { color: #f8f9fa !important; }
+
+.bg-light { background-color: #3f3f3f !important; border-color: #292929 !important; }
+
+.bg-light::placeholder { color: #999; }
+
+.navbar a { text-decoration: none; }
+
+.navbar a.navbar-brand:hover { opacity: 0.5; }
+
+.navbar .nav-link { color: rgba(255, 255, 255, 0.7) !important; }
+
+.navbar .nav-link:hover { color: rgba(255, 255, 255, 0.5) !important; }
+
+.navbar .nav-link.active { color: white !important; }
+
+.navbar .nav-link.active:hover { color: rgba(255, 255, 255, 0.5) !important; }
+
+html[dir=ltr] .navbar-toggler { position: absolute; right: 0.75rem; top: 0.5rem; }
+
+html[dir=rtl] .navbar-toggler { position: absolute; left: 0.75rem; top: 0.5rem; }
+
+.navbar { min-height: 3.5rem; }
+
+.dropdown-menu, .dropdown .hover-content { background-color: #80158A; -webkit-transition: 300ms ease; transition: 300ms ease; display: block; height: 0; padding: 0; overflow: hidden; visibility: hidden; line-height: 0; margin: 0; }
+
+.dropdown .hover-content { display: none; }
+
+.dropdown-menu.show, .dropdown:hover .hover-content { display: block; height: inherit; line-height: inherit; padding: 0.5rem 0; visibility: visible; }
+
+.navbar-toggler:hover + .navbar-collapse.hover-content, .navbar-collapse.hover-content:hover { display: block; }
+
+.dropdown-item { color: rgba(255, 255, 255, 0.7); }
+
+.dropdown-item.active { background-color: unset; }
+
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus { background-color: rgba(0, 0, 0, 0.3); color: rgba(255, 255, 255, 0.5); }
+
+.img-small { max-width: 250px; max-height: 250px; }
+
+html:not([dir=rtl]) .btn-back { position: absolute; left: 5px; margin: 5px 0; font-size: 8pt; padding: 5px; z-index: 10; }
+
+html[dir=rtl] .btn-back { position: absolute; right: 5px; margin: 5px 0; font-size: 8pt; padding: 5px; z-index: 10; }
+
+html[dir=rtl] .end-3 { left: 1rem; }
+
+.input-group-text { color: #999; background-color: #3f3f3f; border-color: #292929; }
+
+.form-control, .form-control:focus, .form-control::placeholder { color: #999; background-color: #3f3f3f; border-color: #292929; display: inline; min-width: 50% !important; }
+
+.card { background-color: inherit; }
+
+.card a { text-decoration: none; font-weight: normal; color: inherit; }
+
+.card a:hover { opacity: 50%; }
+
+.card-footer a { text-decoration: underline; }
+
+.card-image { max-height: 128px; }
+
+.card-image-header { height: 145px; display: flex; align-items: center; justify-content: center; }
+
+.card { background-color: #444; }
+
+.card-header, .card-footer { background-color: rgba(0, 0, 0, 0.15); }
+
+.pointer { cursor: pointer; }
+
+.modal-content { background-color: #333; }
+
+.modal-header { border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+.modal-footer { border-top: 1px solid rgba(0, 0, 0, 0.2); }
+
+.carousel-label { background-color: #333b; border-radius: 10px; }
+
+.form-select-dark { background-color: #444; border: 1px solid #333; }
+
+.icon { display: inline-block; width: 1em; height: 1em; stroke-width: 0; stroke: currentColor; fill: currentColor; }
+
+@media only screen and (min-width: 576px) { html[dir=rtl] .dropdown-menu-sm-end { --bs-position: end; right: auto; left: 0; } }
+
+@media only screen and (min-width: 1024px) { .main-content { max-width: 1024px; } }
+
+@media only screen and (min-width: 1200px) { .main-content { max-width: 1200px; } }
+
+@media only screen and (min-width: 1600px) { .main-content { max-width: 75%; } }
+
+@media only screen and (max-width: 757px) { .dropdown-menu { border: 0; } .dropdown-item { font-weight: bold; } .dropdown-item:hover { background-color: inherit; } }
+
+@media only screen and (min-width: 576px) { .navbar-expand-sm .navbar-collapse { display: block; } nav .navbar-brand, nav .navbar-toggler, nav .navbar-collapse, nav .navbar-nav, nav li.nav-item, nav .dropdown { display: inline-block; } html[dir=ltr] .lang-select-dropdown, .navbar-toggler { position: absolute; right: 0.75rem; } html[dir=rtl] .lang-select-dropdown, .navbar-toggler { position: absolute; left: 0.75rem; } }
+
+/*# sourceMappingURL=dark.css.map */
