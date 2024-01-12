@@ -14,6 +14,10 @@ blockquote { color: #999; margin-bottom: 20px; padding: 0 0 0 20px; border-left:
 
 code, tt { color: #ddd; background-color: #3f3f3f; padding: 3px; border-radius: 0.25rem; white-space: nowrap; }
 
+:not(pre) > code:not(.wrap) { white-space: nowrap; }
+
+@media screen and (max-width: 576px) { :not(pre) > code:not(.wrap) { white-space: normal; } }
+
 li > p { margin-bottom: 0; }
 
 a, .a { text-decoration: none; text-decoration-thickness: 1px; color: #58a6ff; cursor: pointer; }
