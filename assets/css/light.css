@@ -106,8 +106,6 @@ html[dir=rtl] .navbar-toggler { position: absolute; left: 0.75rem; top: 0.5rem; 
 
 .dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus { background-color: rgba(0, 0, 0, 0.3); color: rgba(255, 255, 255, 0.5); }
 
-.img-small { max-width: 250px; max-height: 250px; }
-
 html:not([dir=rtl]) .btn-back { position: absolute; left: 5px; margin: 5px 0; font-size: 8pt; padding: 5px; z-index: 10; }
 
 html:not([dir=rtl]) .btn-with-qr { border-top-right-radius: 0; border-bottom-right-radius: 0; margin-right: 0 !important; padding-right: 0.25rem; }
@@ -173,6 +171,8 @@ html[dir=rtl] .end-3 { left: 1rem; }
 html[dir=lrt] .li-bullet { list-style: disc; margin-left: 1.25em; }
 
 html[dir=rtl] .li-bullet { list-style: disc; margin-right: 1.5em; }
+
+.app-image { height: 280px; width: auto; object-fit: contain; }
 
 .header-anchor { text-decoration: none; display: none; }
 
